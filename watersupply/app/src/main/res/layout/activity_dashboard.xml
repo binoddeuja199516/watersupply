@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="DASHBOARD"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:background="#ffb6c1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#3c496c"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#fff"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_design"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:text="Order WaterBottel"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnUpdateOrder"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_design"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:text="Update Order"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/btnViewOrder"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_design"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:text="Your Orders"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

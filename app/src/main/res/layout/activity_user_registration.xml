@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_registration"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffb6c1"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Registration Detail"
+        android:textColor="#3c496c"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="481dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/rname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:autoSizeTextType="uniform"
+            android:hint="USER EMAIL"
+            android:paddingLeft="8dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:autoSizeTextType="uniform"
+            android:hint="USER EMAIL"
+            android:paddingLeft="8dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/rusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:autoSizeTextType="uniform"
+            android:hint="USER EMAIL"
+            android:paddingLeft="8dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registration_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="PASSWORD"
+            android:paddingLeft="8dp"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/button_registerfinal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_design2"
+            android:text="Register now !!!"
+            android:textColor="#fff"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_design"
+            android:text="Back"
+            android:textColor="#fff"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

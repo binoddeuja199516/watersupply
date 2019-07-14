@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".spalsh_screen"
+    android:background="@drawable/bg_gradient" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WaterSupply"
+        android:fontFamily="serif"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:textColor="#faebd7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffb6c1"
+        android:text="KATHMANDU"
+        android:fontFamily="sans-serif-black"
+        android:textSize="42dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="194dp"-->
+        <!--android:layout_height="162dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/ya_logo" />-->
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="258dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ya_logo"
+        app:civ_border_color="#3c496c"
+        app:civ_border_width="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gradient"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".UpdateOrder">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="UPDATE"
+        android:textColor="#faebd7"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Details"
+        android:textColor="#ffb6c1"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:autoSizeTextType="uniform"
+                android:hint="Name"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_UpdateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:hint="Name"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Email"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txt_UpdateEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Contact No"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txt_UpdateContactNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact No"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:hint="Update Date"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txt_UpdateDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:hint="Update Date"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:hint="Update quantity"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"  />
+            <EditText
+                android:id="@+id/txt_UpdateQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:hint="Update quantity"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:hint="Delivery Location"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txt_UpdateLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:hint="Delivery Location"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:hint="Flexible delivery time"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txt_UpdateDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:hint="Flexible delivery time"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button_Update"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_design"
+                android:text="Update >"
+                android:textColor="#fff"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
+

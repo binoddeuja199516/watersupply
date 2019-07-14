@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewOrder">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".login_screen"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gradient">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORDER"
+            android:fontFamily="serif"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#faebd7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffb6c1"
+            android:text="Details"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            />
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:background="#FFFF">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+
+
+
+                <EditText
+                    android:id="@+id/txt_OrderName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:hint="Name"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/txt_OrderEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Email"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_OrderContactNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Contact No"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_OrderDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:hint="Order Date"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/txt_OrderQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:hint="Order quantity"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/txt_OrderLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:hint="Delivery Location"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/txt_OrderDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:hint="Flexible delivery time"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    />
+
+
+                <Button
+                    android:id="@+id/button_Orderit"
+                    android:layout_width="360dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_design"
+                    android:text="Order >"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
